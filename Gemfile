@@ -6,9 +6,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+gem "font-awesome-rails"
+
 group :development, :test do
   gem 'byebug'
+  gem 'sqlite3'
 end
+
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
@@ -17,15 +21,11 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'thin'
-group :development do
-  gem 'better_errors'
-  gem 'hub', :require=>nil
-  gem 'quiet_assets'
-  gem 'rails_layout'
-end
-group :development, :test do
-  gem 'sqlite3'
-end
+gem 'better_errors'
+gem 'hub', :require=>nil
+gem 'quiet_assets'
+gem 'rails_layout'
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
