@@ -1,23 +1,28 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  header:
+    intro: "Web applications for self-employed workers and small and medium enterprises"
+    know_more: "More info"
+  services:
+    our_services: "Our services"
+    application_work: "A web application is an internet site that works for you!"
+    showcase_title: "Showcase site"
+    showcase_content: "A website to show the world what your activity is about, whatever it is"
+    erp_title: "ERP - Enterprise Resources Planning"
+    erp_content: "An application that follows up the entire process of your company"
+    time_title: "Time management"
+    time_content: "Manage the time worked by your employees or spent for your clients"
+    quote_title: "Sending quotes"
+    quote_content: "Send your quote before even leaving your client"
+    stock_tile: "Stock management"
+    stock_content: "Follow up your products, orders and deliveries"
+    billing_title: "Billing"
+    billing_content: "Process your invoices wherever you are and follow them up easily"
+    data_title: "Data management"
+    data_content: "Organize and get access to your information in a secure way"
+    and_more: "And many many more!"
+    all_together: "These functionalities can be gathered in a single application"
+    nothing_for_you: "You don't see anything that matches your situation?"
+    contact_us: "Contact us and we will find a solution that fits in your project"
+
+
+
