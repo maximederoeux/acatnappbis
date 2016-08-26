@@ -23,6 +23,44 @@ en:
     all_together: "These functionalities can be gathered in a single application"
     nothing_for_you: "You don't see anything that matches your situation?"
     contact_us: "Contact us and we will find a solution that fits in your project"
+  portfolio:
+    latest: "Latest feature"
+    details: "Details"
+    rekwup_title: "Rekwup S.C.R.L."
+    rekwup_content: "ERP for Rekwup, a company that distributes and washes reusable plastic cups"
+  about:
+    experience: "Past experiences"
+    hotel_date: "2000 - 2007"
+    hotel_title: "Hotel industry"
+    hotel_content: "Seven years of revenue and payments audit, cost control, financial reporting, stock and purchases management"
+    police_date: "2008 - 2010"
+    police_title: "Federal Police"
+    police_content: "Three years of information and data management"
+    school_date: "2010 - 2015"
+    school_title: "Enseignement"
+    school_content: "Five years teaching in secondary schools in Brussels, from MS Office and internship supervision to Dutch and English"
+    meet_code_date: "November 2015"
+    meet_code_title: "First encounter with coding"
+    meet_code_content: "Discovery of the world of coders and first app"
+    first_erp_date: "January 2016"
+    first_erp_title: "First ERP"
+    first_erp_content: "Development of an ERP application for Rekwup S.C.R.L, a company that distributes and washes reusable plastic cups"
+    acatnapp_date: "August 2016"
+    acatnapp_title: "A Cat Napp"
+    acatnapp_content: "A new adventure begins and we hope you will be part of it"
+  contact:
+    contact: "Contact"
+    an_idea: "An idea or a project in mind? Need a quote? Please leave us a message"
+    name: "Your last name"
+    first_name: "Your first name"
+    email: "Your email address"
+    phone: "Your phone number"
+    subject: "Subject of your message"
+    content: "Your message"
+    send: "Send"
+
+
+
 
 
 

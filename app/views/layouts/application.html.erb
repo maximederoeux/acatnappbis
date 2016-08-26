@@ -3,8 +3,11 @@
 
   <head>
 
-    <title><%= content_for?(:title) ? yield(:title) : "A Cat Napp" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "A Cat Napp | Des applications qui travaillent pour vous" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "A Cat Napp" %>">
+
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Des applications web au service des indépendants, et des petites et moyennes entreprises" %>">
+    <meta name="keywords" content="Web, Mobile, Apps, Independant, PME, TPE, Ruby on Rails, developer, site internet, ERP, management software">
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
 
@@ -16,8 +19,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="">
-
-    <title>A Cat Napp - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
